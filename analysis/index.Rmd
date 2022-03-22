@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Invitation"
 site: workflowr::wflow_site
 output:
   workflowr::wflow_html:
@@ -8,4 +8,18 @@ editor_options:
   chunk_output_type: console
 ---
 
-Welcome to my research website.
+## Goals of this website:
+Comparing historical to current fire regimes provides context, and for some situations a guide for the future.  In the United States this task can be done using [LANDFIRE](https://landfire.gov/) products.  Here we show you we do this for two highly protected landscapes, the Huron-Manistee National forest and the Okefenokee swamp.  We also share our code and input datasets.  
+
+*The disclaimer:*
+
+We developed this as an extension of our presentation titled "Out of the PAN and into the fire: assessing fire regimes in protected areas" presented at the [International Association for Landscape Ecology-North America Conference, 2022](https://www.ialena.org/annual-meeting.html).  We are not trained coders and don't even play them on TV, and this is not an in depth comparison.  That said we hope to inspire others to compare fire regimes using LANDFIRE data, and to convert static conference presentations into broader learning opportunities. 
+
+
+**Map of LANDFIRE's [Vegetation Departure](https://landfire.gov/vdep.php) dataset.  Green indicates a structural condition closer to modeled historical conditions.**  
+
+```{r lmngr map, echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics("assets/vdep.jpg", error = FALSE)
+```
+
+
