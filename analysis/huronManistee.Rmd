@@ -105,7 +105,7 @@ hmnfBpsChart
 
 ## How much area burned annually prior to European settlement?
 
- <font size="6"> 81,031 acres </font>
+ <font size="6"> Approximately 80,000 acres </font>
  
  We found that the there was substantial amounts of fire in some key BpSs:
  
@@ -152,7 +152,7 @@ annualFireChart_hmnf
 
 ## How much fire is there today?
 
- <font size="6"> 3,967 acres (on average) </font>
+ <font size="6"> Approximately 4,000 acres (on average) </font>
  
 ```{r wrangleCurrent, message=FALSE, warning=FALSE, include=FALSE}
 hmdist <- read_csv("data/DIST99to16CONUS_HM.csv")

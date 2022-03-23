@@ -107,7 +107,7 @@ okBpsChart
 
 ## How much area burned annually prior to European settlement?
 
- <font size="6"> 134,458 acres </font>
+ <font size="6">Approximately  134,000 acres </font>
  
 We found that the there was substantial amounts of fire in some key BpSs:
 
@@ -155,7 +155,7 @@ annualFireChart_ok
 
 ## How much fire is there today?
 
- <font size="6"> 69,132 acres (on average) </font>
+ <font size="6"> Approximately 69,000 acres (on average) </font>
  
 ```{r wrangleCurrent, message=FALSE, warning=FALSE, include=FALSE}
 okdist <- read_csv("data/DIST99to16CONUS_OK.csv")

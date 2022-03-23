@@ -1,0 +1,24 @@
+---
+title: "Data and Methods"
+author: "The Nature Conservancy's LANDFIRE Team"
+date: "2022-03-22"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Data downloaded from LANDFIRE
+
+TALK ABOUT LANDFIRE DATA
+
+## GIS data clipped and combined
+
+TALK ABOUT THAT
+
+## The code
+
+TALK ABOUT R, R-Studio, workflowr and remind users of the code button
+
+## Download data used for this website
+
+INSERT LINKS
