@@ -37,6 +37,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <link rel="icon" href="https://github.com/workflowr/workflowr-assets/raw/main/img/reproducible.png">
 <!-- Add a small amount of space between sections. -->
@@ -333,6 +335,9 @@ div.tocify {
   <a href="index.html">Introduction</a>
 </li>
 <li>
+  <a href="dataAndMethods.html">Data and methods</a>
+</li>
+<li>
   <a href="huronManistee.html">Huron-Manistee</a>
 </li>
 <li>
@@ -343,7 +348,13 @@ div.tocify {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="https://github.com/rswaty/comparefire">
+    <span class="fab fa-github"></span>
+     
+    Source code
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -471,16 +482,16 @@ This reproducible <a href="https://rmarkdown.rstudio.com">R Markdown</a> analysi
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrong5a9436f"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> 5a9436f </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomrswatycomparefiretree4427eaa4a2b02e90dc94747f52602e1f8047dbcftargetblank4427eaaa"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/rswaty/comparefire/tree/4427eaa4a2b02e90dc94747f52602e1f8047dbcf" target="_blank">4427eaa</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrong5a9436f" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomrswatycomparefiretree4427eaa4a2b02e90dc94747f52602e1f8047dbcftargetblank4427eaaa" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version 5a9436f. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/rswaty/comparefire/tree/4427eaa4a2b02e90dc94747f52602e1f8047dbcf" target="_blank">4427eaa</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -490,17 +501,8 @@ Ignored files:
     Ignored:    .Rhistory
     Ignored:    .Rproj.user/
 
-Untracked files:
-    Untracked:  data/DIST99to16CONUS_HM.csv
-    Untracked:  data/DIST99to16CONUS_OK.csv
-    Untracked:  data/hmnf2_cmbn.csv
-    Untracked:  data/ok_cmbn.csv
-    Untracked:  hmnf_fire.csv
-    Untracked:  ok_fire.csv
-
 Unstaged changes:
     Modified:   analysis/_site.yml
-    Deleted:    analysis/license.Rmd
 
 </code></pre>
 <p>
@@ -541,10 +543,44 @@ Message
 <tbody>
 <tr>
 <td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/rswaty/comparefire/blob/4427eaa4a2b02e90dc94747f52602e1f8047dbcf/analysis/huronManistee.Rmd" target="_blank">4427eaa</a>
+</td>
+<td>
+rswaty
+</td>
+<td>
+2022-03-22
+</td>
+<td>
+fixed some typos, added Data and Methods page
+</td>
+</tr>
+<tr>
+<td>
 html
 </td>
 <td>
-5a9436f
+<a href="https://rawcdn.githack.com/rswaty/comparefire/0178165b8b911246a21907a9124b5e0443f858fe/docs/huronManistee.html" target="_blank">0178165</a>
+</td>
+<td>
+rswaty
+</td>
+<td>
+2022-03-22
+</td>
+<td>
+Build site.
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/rswaty/comparefire/5a9436ff8ff41d60379bf38ee9c4232973798950/docs/huronManistee.html" target="_blank">5a9436f</a>
 </td>
 <td>
 rswaty
@@ -561,7 +597,7 @@ Build site.
 Rmd
 </td>
 <td>
-9e3b367
+<a href="https://github.com/rswaty/comparefire/blob/9e3b367d804584a0cee3157bc2863259cfc3e219/analysis/huronManistee.Rmd" target="_blank">9e3b367</a>
 </td>
 <td>
 rswaty
@@ -603,7 +639,7 @@ Publish the initial files for comparefire
 </div>
 <div id="how-much-area-burned-annually-prior-to-european-settlement" class="section level2">
 <h2>How much area burned annually prior to European settlement?</h2>
-<p><font size="6"> 81,031 acres </font></p>
+<p><font size="6"> Approximately 80,000 acres </font></p>
 <p>We found that the there was substantial amounts of fire in some key BpSs:</p>
 <ul>
 <li>The Laurentian Pine-Oak Barrens had the most fire historically, with ~ 58k acres of fire each year historically, or about 22% of this ecosystem.</li>
@@ -613,7 +649,7 @@ Publish the initial files for comparefire
 </div>
 <div id="how-much-fire-is-there-today" class="section level2">
 <h2>How much fire is there today?</h2>
-<p><font size="6"> 3,967 acres (on average) </font></p>
+<p><font size="6"> Approximately 4,000 acres (on average) </font></p>
 <p><img src="figure/huronManistee.Rmd/currentChart-1.png" width="1152" style="display: block; margin: auto auto auto 0;" /></p>
 <br>
 <p>
