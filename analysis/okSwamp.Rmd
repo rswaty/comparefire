@@ -28,7 +28,7 @@ The Okefenokee Swamp is technically a ~440,000 acre wetland that crosses the Geo
 
 
 ```{r lmngr map, echo=FALSE, message=FALSE, warning=FALSE}
-knitr::include_graphics("assets/ok.jpg", error = FALSE)
+knitr::include_graphics("assets/OK.jpg", error = FALSE)
 ```
 
 <br>

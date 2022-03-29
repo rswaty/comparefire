@@ -8,8 +8,10 @@ editor_options:
 ---
 
 ## Data downloaded from LANDFIRE
+[LANDFIRE](https://landfire.gov/) is a program that delivers dozens of datasets that characterize vegetation, fire and fuels characteristics for all lands in the United States.  Some of the datasets LANDFIRE delivers include (bolded indicates used in this project):
 
-TALK ABOUT LANDFIRE DATA
+* **Biophysical Settings: **  Represents the dominant vegetation systems prior to European Colonization.
+* **Annual Disturbance:** Depicts where changes occured on the landscape per year.  
 
 ## GIS data clipped and combined
 
