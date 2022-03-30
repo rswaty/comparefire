@@ -8,12 +8,35 @@ editor_options:
 ---
 
 ## Data downloaded from LANDFIRE
-[LANDFIRE](https://landfire.gov/) is a program that delivers dozens of datasets that characterize vegetation, fire and fuels characteristics for all lands in the United States.  Some of the datasets LANDFIRE delivers include (bolded indicates used in this project):
+[LANDFIRE](https://landfire.gov/) is a program that delivers dozens of datasets that characterize vegetation, fire and fuels characteristics for all lands in the United States.  We downloaded and used:
 
 * **Biophysical Settings: **  Represents the dominant vegetation systems prior to European Colonization.
-* **Annual Disturbance:** Depicts where changes occured on the landscape per year.  
+* **Annual Disturbance:** Depicts where changes occurred on the landscape per year.  We used all available rasters at the time of analysis, years 1999-2016.
+* **Existing Vegetation Type:** Represents current (as of 2016 for this analysis) ecological systems as developed by [NatureServe](https://landfire.gov/documents/PCom_2003_Ecol_Systems_US.pdf).
 
-## GIS data clipped and combined
+
+Additionally we used the [Secured Areas Dataset](https://tnc.maps.arcgis.com/home/item.html?id=e033e6bf6069459592903a04797b8b07) to identify and map our example landscapes.
+
+## Data pre-processing
+All pre-processing completed in ArcGIS Pro (version 2.8.1, https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview).  
+
+1.  Mapping of secured areas 
+    * Projected to LANDFIRE projection
+    * Converted from vector to raster (matched LANDFIRE cell size)
+    * Used extract by attributes to create one raster for each or our example landscapes.  We used the relevant values from the VALUE field for extraction. 
+2. Masked BpS and annual disturbance rasters to the example landscapes using the extract by mask tool.
+3. Stacked (aka combined) the Biophysical Settings (BpS) and Existing Vegetation Type data using the combine tool.
+
+
+## Data analysis (see code for details)
+
+1. Calculated acres per BpS within each example landscape by multiplying the count of 30m x 30m pixels by 0.2223945 (conversion factor).
+2. Converted Mean Fire Return Intervals in BpS data to annual probabilities by diving the year number into 1 (e.g., 1/50yr FRI = annual probability of 0.2), then calculated annual acres burned by multiplying the fire probability by acres per BpS to calculate annual acres burned for each BpS. 
+3. Calculated average annual area burned from 1999-2016 for the example landscapes
+    a. Used R to: read in the value attribute table for each annual disturbance raster; summarize the pixel cell count and calculate acres for each combination of disturbance type and severity; create a single table  combining the summarized disturbance information for all years (1999-2016). Exported table  as a CSV. 
+    b. Calculated average annual area burned following methods in the Fire Regime Condition Class Guidebook (see section entitled “Estimating current fire frequency” p. 39-40) using MS Excel.
+4.	Created graphs and charts in R
+
 
 TALK ABOUT THAT
 
