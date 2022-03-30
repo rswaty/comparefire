@@ -1,4 +1,4 @@
-name: CompareFire
+name: Compare Fire
 output_dir: ../docs
 navbar:
   title: comparefire
@@ -23,4 +23,6 @@ output:
     toc_float: yes
     theme: cosmo
     highlight: textmate
+    includes:
+      in_header: analytics.html
 
