@@ -21,14 +21,14 @@ Additionally we used the [Secured Areas Dataset](https://tnc.maps.arcgis.com/hom
 All pre-processing completed in ArcGIS Pro (version 2.8.1, https://www.esri.com/en-us/arcgis/products/arcgis-pro/overview).  
 
 1.  Mapping of secured areas 
-    * Projected to LANDFIRE projection
-    * Converted from vector to raster (matched LANDFIRE cell size)
-    * Used extract by attributes to create one raster for each or our example landscapes.  We used the relevant values from the VALUE field for extraction. 
+    a. Projected to LANDFIRE projection
+    b. Converted from vector to raster (matched LANDFIRE cell size)
+    c. Used extract by attributes to create one raster for each or our example landscapes.  We used the relevant values from the VALUE field for extraction. 
 2. Masked BpS and annual disturbance rasters to the example landscapes using the extract by mask tool.
 3. Stacked (aka combined) the Biophysical Settings (BpS) and Existing Vegetation Type data using the combine tool.
 
 
-## Data analysis (see code for details)
+## Data analysis (Click Source Code to download R files which contain details)
 
 1. Calculated acres per BpS within each example landscape by multiplying the count of 30m x 30m pixels by 0.2223945 (conversion factor).
 2. Converted Mean Fire Return Intervals in BpS data to annual probabilities by diving the year number into 1 (e.g., 1/50yr FRI = annual probability of 0.2), then calculated annual acres burned by multiplying the fire probability by acres per BpS to calculate annual acres burned for each BpS. 
@@ -36,13 +36,6 @@ All pre-processing completed in ArcGIS Pro (version 2.8.1, https://www.esri.com/
     a. Used R to: read in the value attribute table for each annual disturbance raster; summarize the pixel cell count and calculate acres for each combination of disturbance type and severity; create a single table  combining the summarized disturbance information for all years (1999-2016). Exported table  as a CSV. 
     b. Calculated average annual area burned following methods in the Fire Regime Condition Class Guidebook (see section entitled “Estimating current fire frequency” p. 39-40) using MS Excel.
 4.	Created graphs and charts in R
-
-
-TALK ABOUT THAT
-
-## The code
-
-TALK ABOUT R, R-Studio, workflowr and remind users of the code button
 
 ## Download data used for this website
 
