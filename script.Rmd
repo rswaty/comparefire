@@ -1,0 +1,36 @@
+---
+title: "Script for IALE conference presentation"
+author: "The Nature Conservancy's LANDFIRE team"
+date: "3/31/2022"
+output: pdf_document
+---
+
+
+## Issue and challenge
+As you know fire is a key ecological process. Too much or too little fire leads to altered vegetation structure and composition to say the least.  In some ecosystems such as sagebrush we often find too much fire due to the invasion of annual grasses such as cheatgrass.  Many ecosystems have too little fire due to fire suppression.  All of that said, defining too much or too little fire, especially for a large area is a vexing problem for many reasons including:
+
+* many historical fire regime datasets are very local in nature, or are non-existent
+* it can be very difficult to find places where fire is operating naturally
+* current fire data mapping is improving, but is still challenging as defining and mapping severity is problematic, fire perimeters can give the impression of homogeneity and small fires may not be tracked or reported at all
+
+With climate change, invasive species, resource needs, fragmentation and other ecosystem stressors we are not going back to a historical baseline.  That said, looking to the past gives context and important information that may give us clues as to what is possible.  We may find that learning how ecosystems worked under natural disturbance regimes can help us adapt to an ever changing future.
+
+While I discuss the questions we addressed I want to pull up a map of a dataset called Vegetation Departure.  This is not a map of where ecosystems are beautiful and does not alone indicate where things are "bad".  Instead it represents the difference between modeled historical, and mapped current ecosystem conditions.  Green areas are closests to historical.
+
+## The questions
+We wanted to try our hand at comparing modeled historical to mapped current fire regimes for two protected areas in the United States.  Specifically we asked:
+
+* What were the ecosystems on our landscapes historically, and how much did they burn annually?
+* In sum, how much of each ecosystem burned every year historically?
+* How much of each landscape burns today, and what types of fire dominate?
+
+Before moving on to methods...about this presentation.  We wanted to try something new, something that just might help someone with coding or understanding how the datasets should be structured.  We are not professional coders and are sure there's room for improvement.  We hope to hear your ideas in the future!
+
+## Input datasets and methods
+
+
+
+
+
+## The questions
+
