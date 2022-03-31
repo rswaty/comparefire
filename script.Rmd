@@ -45,5 +45,12 @@ On to our example landscapes.
 The Huron-Manistee National Forest is in the northern half of the lower peninsula of Michigan.  Confused?  Maybe the map will help.  The forest used to be two separate forests that were joined in 1945.  The forest is roughly 1 million acres.  It's an amazing place with several trout streams, and ecosystems that range from wooded dune and swale to jack pine barrens to wetlands and northern hardwoods forests.
 
 ### Result one
-Over 90% of the area was dominated by 5 ecosystems historically, with 15 other ecosystems filling in the gaps.  On this chart we have the full Biophysical Settings names on the Y axis, and acres on the x axis.  In case you can't see the x axis, the darker lines are the 500,000 mark, so there 
+Over 90% of the area was dominated by 5 ecosystems historically, with 15 other ecosystems filling in the gaps.  THIS CHARTS IS CURRENTLY WRONG DUE TO A GROUPBY ERROR.  I KNOW WHAT TO DO AND ARE JUST TALKING RIGHT NOW SO THAT I TAKE UP SOME TIME AND GET A GOOD ESTIMATE OF HOW LONG THIS WILL TAKE.  OK TOMORROW I WILL FIX AND NOW WILL MOVE ON TO THE NEXT PART OF THE SHOW.
+
+### Result two
+The punchline is that we found that roughly 80k acres burned per year on this landscape or about 8% of the area.  On this chart we have the historical ecosystem names on the Y axis and acres on the x-axis.  I will fix the numbers.  We see that almost all of the fires were characterized as surface fires which killed less than 25% of the above ground vegetation, and that almost all of the fires occured in the laurentian pine-oak barrens which had a fire of some sort, mostly surface every 4 years historically.  Exclamation point!  The other pine types had fire as well.
+
+### Result three
+From 1999-2016 the yearly burned area was roughly 4k acres.  On this chart acres are on the y-axis, and years on the x-axis, with colors indicating fire type.  Note-fire types here are different than in the chart above and not necessarily comparible.  
+
 

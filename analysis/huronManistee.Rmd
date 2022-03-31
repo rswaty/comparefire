@@ -67,10 +67,6 @@ hmnf_bps <- hmnf %>%
          percentAnnual = ((annualAcres/ACRES)*100)
          ) 
 
-
-
-#write.csv(hmnf_bps, file = "hmnf_fire.csv")
-
 ```
 
 ```{r bpsChart, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', fig.width=12, fig.height=14}
