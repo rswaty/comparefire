@@ -195,3 +195,39 @@ ggplot(hmdist_fire, aes(x = YEAR, y = ACRES, fill = DIST_TYPE)) +
 
 hmnf_current_plot
 ```
+
+
+## Interpretation, implications and future directions
+
+<br>
+
+### Interpretation
+Historically fire was not evenly distributed across the landscape, rather it was highly related to the Biophysical Settings, with some being highly fire adapted (e.g., Laurentian Pine-Oak Barrens) and some not (e.g., Laurentian-Acadian Northern Hardwoods Forest-Hemlock).  
+
+Currently there is 20x less fire per year than there was historically.  Some patterns jump out:
+
+* While highly variable the amount of wildfire is trending upward
+* Prescribed fire is fairly steady
+* Wildland fire use appears to be declining if not missing altogether
+
+### Implications
+We did not explore ecosystem specific implications here (see future directions below).  What we can see is that Vegetation Departure (index that "indicates how different current vegetation on a landscape is from estimated historical conditions", from https://landfire.gov/vdep.php) is relativity high across the entire area, including within the Huron-Manistee National Forest.  
+
+**Map of LANDFIRE's [Vegetation Departure](https://landfire.gov/vdep.php) dataset for the Huron-Manistee National Forest.  Green indicates a structural condition closer to modeled historical conditions.**  
+
+```{r hmnfVdep map, echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics("assets/hmnfVdep.jpg", error = FALSE)
+```
+
+
+### Future directions
+Our analysis points to substantial differences in fire regimes for the Huron-Manistee National Forest, and maps of Vegetation Departure indicate high levels of differences between historical and current vegetation structure.  That said questions remain, many of which can be explored with LANDFIRE data:
+
+1. How much of the fire-dependent ecosystems remain on the landscape today?  Using LANDFIRE's [Existing Vegetation Type](https://landfire.gov/evt.php) data combined with the Biophysical Settings data this could be quantified. 
+2. For the remaining fire-dependent ecosystems, which succession classes are under/over-represented compared to historical amounts?  Using LANDFIRE's Biophysical Settings [reference condition table](https://landfire.gov/zip/LANDFIRE_CONUS_Reference_Condition_Table_August_2020.zip) combined with the [Succession Class](https://landfire.gov/sclass.php) this question can be answered.
+3. Are the patterns we see with Wildland Fire Use accurate?  We would need to work with local managers to verify (or not) this pattern.
+
+
+
+
+
