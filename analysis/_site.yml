@@ -1,7 +1,7 @@
-name: comparefire
+name: Compare Fire
 output_dir: ../docs
 navbar:
-  title: comparefire
+  title: Compare Fire
   left:
   - text: Introduction
     href: index.html
@@ -25,3 +25,4 @@ output:
     highlight: textmate
     includes:
       in_header: analytics.html
+
