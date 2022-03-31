@@ -48,29 +48,28 @@ We found:
 
 ```{r bpsWrangle, echo=FALSE, message=FALSE, warning=FALSE}
 hmnf_bps <- hmnf %>%
-  select(3, 12:17) %>%
+  mutate(ACRES = (COUNT*0.222))%>%
+  select( 12:18) %>%
   group_by(BPS_NAME,
            FRI_REPLAC,
            FRI_MIXED,
            FRI_SURFAC,
-           FRI_ALLFIR,
-           BPS_MODEL) %>%
-  summarise(groupedCount = sum(COUNT)) %>%
-  arrange(desc(groupedCount)) %>%
-  mutate(ACRES = (groupedCount*0.222)) %>%
+           FRI_ALLFIR) %>%
+  summarise(ACRES = sum(ACRES)) %>%
+  arrange(desc(ACRES))  %>%
+  filter(BPS_NAME != "Open Water",
+         BPS_NAME != "Barren-Rock/Sand/Clay") %>%
   pivot_longer(cols = 2:5,
                names_to = "fireType",
                values_to = "returnInterval") %>%
   mutate(annualProb = (1/returnInterval),
          annualAcres = (annualProb*ACRES),
          percentAnnual = ((annualAcres/ACRES)*100)
-         ) %>%
-  filter(BPS_NAME != "Open Water",
-         BPS_NAME != "Barren-Rock/Sand/Clay")
+         ) 
 
 
 
-write.csv(hmnf_bps, file = "hmnf_fire.csv")
+#write.csv(hmnf_bps, file = "hmnf_fire.csv")
 
 ```
 

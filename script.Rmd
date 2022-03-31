@@ -15,7 +15,7 @@ As you know fire is a key ecological process. Too much or too little fire leads 
 
 With climate change, invasive species, resource needs, fragmentation and other ecosystem stressors we are not going back to a historical baseline.  That said, looking to the past gives context and important information that may give us clues as to what is possible.  We may find that learning how ecosystems worked under natural disturbance regimes can help us adapt to an ever changing future.
 
-While I discuss the questions we addressed I want to pull up a map of a dataset called Vegetation Departure.  This is not a map of where ecosystems are beautiful and does not alone indicate where things are "bad".  Instead it represents the difference between modeled historical, and mapped current ecosystem conditions.  Green areas are closests to historical.
+While I discuss the questions we addressed I want to pull up a map of a dataset called Vegetation Departure.  This is not a map of where ecosystems are beautiful and does not alone indicate where things are "bad".  Instead it represents the difference between modeled historical, and mapped current ecosystem conditions.  Green areas are closest to historical.
 
 ## The questions
 We wanted to try our hand at comparing modeled historical to mapped current fire regimes for two protected areas in the United States.  Specifically we asked:
@@ -24,13 +24,26 @@ We wanted to try our hand at comparing modeled historical to mapped current fire
 * In sum, how much of each ecosystem burned every year historically?
 * How much of each landscape burns today, and what types of fire dominate?
 
+You might be wondering why protected areas?  These areas typically have reduced fragmentation and therefore are easier to restore.  We also want to note that just because a place is protected doesn't mean it's necessarily in good ecological condition.
+
 Before moving on to methods...about this presentation.  We wanted to try something new, something that just might help someone with coding or understanding how the datasets should be structured.  We are not professional coders and are sure there's room for improvement.  We hope to hear your ideas in the future!
 
 ## Input datasets and methods
 
+We used three main datasets.  From LANDFIRE we used:
+1. Biophysical Settings.  This dataset depicts the vegetation systems that would have been on the landscape jsut prior to European Colonization. The dataset includes all of the historical fire parameters we used to calculate historical fire regimes.
+2. Annual disturbances: LANDFIRE collects disturbance information from land managers and performs change detection to deliver rasters that map out disturbances such as fire and insects.
 
+We used the secured areas dataset developed by The Nature Conservancy's Center for Resilient Conservation Science to identify and map our example landscapes.
 
+We used ArcGIS Pro for GIS processing, then moved to R for data wrangling and chart making.  If you want to see the code and exported attribute tables please click the Source Code button at the top right of the screen.   If the GIS methods are not familiar to you, please contact us-we'd be happy to walk you through them.
 
+On to our example landscapes.
 
-## The questions
+## The Huron-Manistee National Forest
+
+The Huron-Manistee National Forest is in the northern half of the lower peninsula of Michigan.  Confused?  Maybe the map will help.  The forest used to be two separate forests that were joined in 1945.  The forest is roughly 1 million acres.  It's an amazing place with several trout streams, and ecosystems that range from wooded dune and swale to jack pine barrens to wetlands and northern hardwoods forests.
+
+### Result one
+Over 90% of the area was dominated by 5 ecosystems historically, with 15 other ecosystems filling in the gaps.  On this chart we have the full Biophysical Settings names on the Y axis, and acres on the x axis.  In case you can't see the x axis, the darker lines are the 500,000 mark, so there 
 

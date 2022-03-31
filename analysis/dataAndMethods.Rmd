@@ -10,10 +10,9 @@ editor_options:
 ## Data downloaded from LANDFIRE
 [LANDFIRE](https://landfire.gov/) is a program that delivers dozens of datasets that characterize vegetation, fire and fuels characteristics for all lands in the United States.  We downloaded and used:
 
-* **Biophysical Settings: **  Represents the dominant vegetation systems prior to European Colonization.
-* **Annual Disturbance:** Depicts where changes occurred on the landscape per year.  We used all available rasters at the time of analysis, years 1999-2016.
-* **Existing Vegetation Type:** Represents current (as of 2016 for this analysis) ecological systems as developed by [NatureServe](https://landfire.gov/documents/PCom_2003_Ecol_Systems_US.pdf).
-
+From LANDFIRE:
+* Biophysical Settings:  Represents the dominant vegetation systems prior to European Colonization.
+* Annual Disturbance: Depicts where changes occurred on the landscape per year.  We used all available rasters at the time of analysis, years 1999-2016.
 
 Additionally we used the [Secured Areas Dataset](https://tnc.maps.arcgis.com/home/item.html?id=e033e6bf6069459592903a04797b8b07) to identify and map our example landscapes.
 
