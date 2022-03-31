@@ -202,6 +202,22 @@ ok_current_plot
 ```
 
 
+## Interpretation, implications and future directions
+
+<br>
+
+### Interpretation
+With ~134,000 acres of fire every year prior to European colonization (roughly 18% of the total area) the Okefenokee Swamp landscape was highly fire adapted.  In fact many of the ecosystems had a Mean Fire Return Interval of less than 5 years!  This illuminates the fire-adapted nature of just one place in the Southeastern United States.
 
 
 
+### Implications
+
+**Map of LANDFIRE's [Vegetation Departure](https://landfire.gov/vdep.php) dataset for the Okefenokee Swamp area.  Green indicates a structural condition closer to modeled historical conditions.**  
+
+```{r hmnfVdep map, echo=FALSE, message=FALSE, warning=FALSE}
+knitr::include_graphics("assets/okVdep.jpg", error = FALSE)
+```
+
+
+### Future directions
