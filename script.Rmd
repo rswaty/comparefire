@@ -5,6 +5,10 @@ date: "3/31/2022"
 output: pdf_document
 ---
 
+## Today I will explore a website we developed this website as an extension of our presentation titled "Out of the PAN and into the fire: assessing fire regimes in protected areas" presented at the [International Association for Landscape Ecology-North America Conference, 2022](https://www.ialena.org/annual-meeting.html).  We are not trained coders and don't even play them on TV, and this is not an in depth comparison.  That said we hope to inspire others to compare fire regimes using LANDFIRE data, and to convert static conference presentations into broader learning opportunities.   
+
+We will not cover all material in our website during the actual presentation.  Please explore and click the "Source code" button at the top right to download datasets and code.
+
 
 ## Issue and challenge
 As you know fire is a key ecological process. Too much or too little fire leads to altered vegetation structure and composition to say the least.  In some ecosystems such as sagebrush we often find too much fire due to the invasion of annual grasses such as cheatgrass.  Many ecosystems have too little fire due to fire suppression.  All of that said, defining too much or too little fire, especially for a large area is a vexing problem for many reasons including:
