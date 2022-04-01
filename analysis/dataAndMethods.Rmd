@@ -36,6 +36,4 @@ All pre-processing completed in ArcGIS Pro (version 2.8.1, https://www.esri.com/
     b. Calculated average annual area burned following methods in the Fire Regime Condition Class Guidebook (see section entitled “Estimating current fire frequency” p. 39-40) using MS Excel.
 4.	Created graphs and charts in R
 
-## Download data used for this website
 
-INSERT LINKS
