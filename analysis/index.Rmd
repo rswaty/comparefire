@@ -1,5 +1,5 @@
 ---
-title: "Invitation"
+title: "Introduction"
 site: workflowr::wflow_site
 output:
   workflowr::wflow_html:
@@ -9,12 +9,19 @@ editor_options:
 ---
 
 ## Goals of this website:
-Comparing historical to current fire regimes provides context, and for some situations a guide for the future.  In the United States this task can be done using [LANDFIRE](https://landfire.gov/) products.  Here we show you we do this for two highly protected landscapes, the Huron-Manistee National forest and the Okefenokee swamp.  We also share our code and input datasets.  
+We developed this website as an extension of our presentation titled "Out of the PAN and into the fire: assessing fire regimes in protected areas" presented at the [International Association for Landscape Ecology-North America Conference, 2022](https://www.ialena.org/annual-meeting.html).  We are not trained coders and don't even play them on TV, and this is not an in depth comparison.  That said we hope to inspire others to compare fire regimes using LANDFIRE data, and to convert static conference presentations into broader learning opportunities.   
 
-*The disclaimer:*
+We will not cover all material in our website during the actual presentation.  Please explore and click the "Source code" button at the top right to download datasets and code.
 
-We developed this as an extension of our presentation titled "Out of the PAN and into the fire: assessing fire regimes in protected areas" presented at the [International Association for Landscape Ecology-North America Conference, 2022](https://www.ialena.org/annual-meeting.html).  We are not trained coders and don't even play them on TV, and this is not an in depth comparison.  That said we hope to inspire others to compare fire regimes using LANDFIRE data, and to convert static conference presentations into broader learning opportunities. 
+## The questions
+We wanted to try our hand at comparing modeled historical to mapped current fire regimes for two protected areas in the United States.  Specifically we asked:
 
+* What were the ecosystems on our landscapes historically, and how much did they burn annually?
+* In sum, how much of each ecosystem burned every year historically?
+* How much of each landscape burns today, and what types of fire dominate?
+
+
+## We explore these questions on two landscapes
 
 **Map of LANDFIRE's [Vegetation Departure](https://landfire.gov/vdep.php) dataset.  Green indicates a structural condition closer to modeled historical conditions.**  
 
