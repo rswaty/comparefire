@@ -47,7 +47,7 @@ We found:
 <br>
 
 ```{r bpsWrangle, echo=FALSE, message=FALSE, warning=FALSE}
-hmnf_bps <- hmnf %>%
+hmnf_bps_all <- hmnf %>%
   mutate(ACRES = (COUNT*0.222))%>%
   select( 12:18) %>%
   group_by(BPS_NAME,
@@ -70,6 +70,11 @@ hmnf_bps <- hmnf %>%
 ```
 
 ```{r bpsChart, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', fig.width=12, fig.height=14}
+
+hmnf_bps <- hmnf_bps_all %>%
+  group_by(BPS_NAME) %>%
+  summarise(ACRES = mean(ACRES))
+
 
 hmnf_bps$shortName <- str_wrap(hmnf_bps$BPS_NAME, width = 30)
 
@@ -107,9 +112,9 @@ hmnfBpsChart
  * The Laurentian Pine-Oak Barrens had the most fire historically, with ~ 58k acres of fire each year historically, or about 22% of this ecosystem.
  * Almost all fires in the Huron-Manistee NF were modeled as "surface" fires, with less than 25% top-kill.  
 
-```{r fireChart, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', fig.width=12, fig.height=10}
+```{r fireChart, echo=FALSE, message=FALSE, warning=FALSE, fig.align='left', fig.width=12, fig.height=12,}
 
-hmnf_bpsNoALL <- hmnf_bps %>%
+hmnf_bpsNoALL <- hmnf_bps_all %>%
   filter(fireType %in% c("FRI_REPLAC",
                          "FRI_MIXED",
                          "FRI_SURFAC")) 
@@ -138,7 +143,8 @@ annualFireChart_hmnf <- hmnf_bpsNoALL %>%
                     name = "Fire Type", 
                     labels = c("Mixed",
                                "Replacement",
-                              "Surface"))
+                              "Surface"))  +
+    theme(plot.margin = unit(c(0,1,0,0), "cm"))
 
 annualFireChart_hmnf
 

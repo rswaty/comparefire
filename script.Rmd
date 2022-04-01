@@ -30,7 +30,8 @@ Before moving on to methods...about this presentation.  We wanted to try somethi
 
 ## Input datasets and methods
 
-We used three main datasets.  From LANDFIRE we used:
+We used three main datasets.  
+The LANDFIRE Program, which delivers dozens of datasets depicting vegetation, fire and fuels data provided:
 1. Biophysical Settings.  This dataset depicts the vegetation systems that would have been on the landscape jsut prior to European Colonization. The dataset includes all of the historical fire parameters we used to calculate historical fire regimes.
 2. Annual disturbances: LANDFIRE collects disturbance information from land managers and performs change detection to deliver rasters that map out disturbances such as fire and insects.
 
@@ -51,6 +52,42 @@ Over 90% of the area was dominated by 5 ecosystems historically, with 15 other e
 The punchline is that we found that roughly 80k acres burned per year on this landscape or about 8% of the area.  On this chart we have the historical ecosystem names on the Y axis and acres on the x-axis.  I will fix the numbers.  We see that almost all of the fires were characterized as surface fires which killed less than 25% of the above ground vegetation, and that almost all of the fires occured in the laurentian pine-oak barrens which had a fire of some sort, mostly surface every 4 years historically.  Exclamation point!  The other pine types had fire as well.
 
 ### Result three
-From 1999-2016 the yearly burned area was roughly 4k acres.  On this chart acres are on the y-axis, and years on the x-axis, with colors indicating fire type.  Note-fire types here are different than in the chart above and not necessarily comparible.  
+From 1999-2016 the yearly burned area was roughly 4k acres.  On this chart acres are on the y-axis, and years on the x-axis, with colors indicating fire type.  Note-fire types here are different than in the chart above and not necessarily comparible.
+
+A few patterns jumped out:
+
+1. amounts varied substantially from year to year, ranging from a few hundred acres to almost 12k acres
+2. The trend for fire seems to be generally going up, especially prescribed fire.
+3. Wildland fire use has appearantly dropped to nothing.  
+
+## Implications
+In a landscape where fire was once a defining natural feature a sharp decline is bound to make a difference in vegetation structure and composition.  One way to look at this is to explore the Vegetation Departure dataset.  In this map the polygons are the Huron-Manistee.  The green areas have vegetation departure of less than 33 on a scale of 0-100.  There's not much green in the analysis area, or outside of it either.  
+
+## Future directions if there's time (unlikely)
+
+
+## Okefenokee Swamp
+
+The area we used as the Okefenokee Swamp encompasses not only a 440k acre swamp that crosses the GA-FL border, but also protected lands south.  We included the broader area for potential exploration of patterns across ownerships.
+
+While this area contrasts strongly with our previous landscape in terms of climate, geography and other abiotic factors, it shares dominance by fire-adapted ecosystems.
+
+### Result one
+
+AS WITH THE HURON MANISTEE THIS CHART IS WRONG. IF YOU REALLY WANT TO UNDERSTAND IT YOU BASICALLY HAVE TO DIVIDE THE NUMBERS BY 4.  EVEN STILL I AM GRATEFUL TO HAVE CAUGHT THIS ERROR AND THE PATTERNS ARE TRUE...THE AREA REALLY WAS DOMINATED BY THE SWAMP AND LONGLEAF PINE ECOSYSTEMS.
+
+### Result two
+Historically we calculated that there was roughly 134k acres per year prior to European colonization.  The graph is laid out the same as the one on the Huron-Manistee and the patterns are similar with most fire occuring in one BpS, in this case a longleaf pine type which had ~60k acres of fire per year.  This landscape was also dominated by surface fires.  
+
+### Result three
+The mean fire amounts from 1999-2016 are roughly half of modeled historical amounts, or around 69k acres.  What is interesting is the variability and the fact that most fire is wildfire.  Some years nearly 2/3 of the landscape has burned!  I thought that the top years for fire were only 3 years apart.  The mean fire return interval for the entire area was roughly 4 years historically.
+
+NOTE I WILL FIX THE LEGEND PLACEMENT.  
+
+## Implications
+Here is another map of Vegetation Departure, showing that structural characteristics within the analysis area are substantially lower than the surrounding area.  Without further analysis we cannot definitively say that the current fire regime has led to lower vegetation departure, but all signs are pointing that way.  
+
+
+
 
 
