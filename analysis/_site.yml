@@ -11,6 +11,8 @@ navbar:
     href: huronManistee.html
   - text: Okefenokee
     href: okSwamp.html
+  - text: About
+    href: about.html
 
   right:
   - icon: fab fa-github

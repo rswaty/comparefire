@@ -1,10 +1,95 @@
 ---
-title: "About"
-output:
-  workflowr::wflow_html:
-    toc: false
-editor_options:
-  chunk_output_type: console
+title: TNC's LANDFIRE Team
+author: ""
+date: ""
+output: html_document
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+***
+---
+
+#### For more information, check out the [LANDFIRE website](https://landfire.gov/){target='blank'}
+
+<br>
+
+#### Join the [LANDFIRE monthly 5-min brief](https://landfire.us9.list-manage.com/subscribe?u=25aeabb346a09aaf1c528f007&id=2f025aaae2){target='blank'} to stay in touch and engaged with the LANDFIRE community.
+
+***
+---
+
+```{r, echo=FALSE, out.width='25%', out.extra='style="float:right; padding:10px"'} 
+knitr::include_graphics("assets/JS.jpg", error=FALSE)
+
+```
+
+#### Jim Smith, TNC LANDFIRE Program Lead, Jacksonville, FL | jim_smith@tnc.org
+
+Jim’s background in project management, spatial accuracy, detecting and predicting spatiotemporal uncertainty, biometrics and modeling prepared him well to successfully lead TNC’s varied, dynamic and diverse LANDFIRE Team since 2004. 
+<br>
+</br>
+
+#### Kori Blankenship, Fire Ecologist, Bend, OR | kblankenship@tnc.org 
+
+```{r, echo=FALSE, out.width='25%', out.extra='style="float:right; padding:10px"'} 
+knitr::include_graphics("assets/KB.jpg", error=FALSE)
+
+```
+
+Kori’s distinct combination of on-the-ground wildland fire expertise, ecological modeling prowess, spatial analysis skills and technical knowledge continues to improve and enhance the ability of the LANDFIRE community to use and modify LANDFIRE data and products to suit their needs. 
+<br>
+</br>
+<br>
+</br>
+
+
+#### Randy Swaty, Ecologist, Marquette, MI | rswaty@tnc.org
+
+```{r, echo=FALSE, out.width='25%', out.extra='style="float:right; padding:10px"'} 
+knitr::include_graphics("assets/RS.jpg", error=FALSE)
+
+```
+
+Randy leverages his background and expertise in ecological modeling, forest ecology and spatial data manipulation to adapt LANDFIRE products and data and contribute to meaningful conservation science and land management decisions.  
+<br>
+</br>
+<br>
+
+#### Sarah Hagen, Spatial Ecologist, Minneapolis, MN | shagen@tnc.org  
+
+```{r, echo=FALSE, out.width='25%', out.extra='style="float:right; padding:10px"'} 
+knitr::include_graphics("assets/SH.jpg", error=FALSE)
+
+```
+
+Sarah’s deep knowledge and dedication to cartographic excellence, conservation science, geographic information systems, spatial analysis and collaborative conservation planning is evident throughout her varied, professional contributions.   
+<br>
+</br>
+<br>
+</br>
+
+
+#### Kim Hall, Climate Ecologist, Lansing, MI | kimberly.hall@tnc.org  
+```{r, echo=FALSE, out.width='25%', out.extra='style="float:right; padding:10px"'} 
+knitr::include_graphics("assets/KH.jpg", error=FALSE)
+
+```
+
+Kim applies her background in conservation biology and landscape ecology to develop strategies for reducing risks to nature and people from climate change. Her expertise on drivers, impacts and implications of climate change provides context and clarity for LANDFIRE users integrating climate change variables and LANDFIRE products and data. 
+<br>
+</br>
+<br>
+</br>
+
+#### Megan Dettenmaier, Communications Lead, Reno, NV | meg.dettenmaier@tnc.org   
+```{r, echo=FALSE, out.width='25%', out.extra='style="float:right; padding:10px"'} 
+knitr::include_graphics("assets/MD.jpg", error=FALSE)
+
+```
+
+Megan couples her knowledge and appreciation of the scientific world with her desire to distill and deliver powerful scientific tools and products for the masses. She uses social media and traditional communication networks to grow the LANDFIRE community.
+<br>
 
