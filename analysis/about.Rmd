@@ -9,17 +9,15 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-***
----
+## Learn About LANDFIRE
 
-#### For more information, check out the [LANDFIRE website](https://landfire.gov/){target='blank'}
+For more information, check out the [LANDFIRE website](https://landfire.gov/){target='blank'}
 
 <br>
 
-#### Join the [LANDFIRE monthly 5-min brief](https://landfire.us9.list-manage.com/subscribe?u=25aeabb346a09aaf1c528f007&id=2f025aaae2){target='blank'} to stay in touch and engaged with the LANDFIRE community.
+Join the [LANDFIRE monthly 5-min brief](https://landfire.us9.list-manage.com/subscribe?u=25aeabb346a09aaf1c528f007&id=2f025aaae2){target='blank'} to stay in touch and engaged with the LANDFIRE community.
 
-***
----
+## Authors
 
 ```{r, echo=FALSE, out.width='25%', out.extra='style="float:right; padding:10px"'} 
 knitr::include_graphics("assets/JS.jpg", error=FALSE)
